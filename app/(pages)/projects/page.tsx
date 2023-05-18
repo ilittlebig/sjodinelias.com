@@ -1,6 +1,6 @@
 "use client"
 
-import Projects, { ProjectItemType } from "@/app/components/modules/projects"
+import ProjectsSection, { ProjectItemType } from "@/app/components/modules/projectsSection"
 
 const projectsList: ProjectItemType[] = [
   {
@@ -12,7 +12,7 @@ const projectsList: ProjectItemType[] = [
 	  "Snabbt",
 	],
 	path: "/projects/little",
-	imagePath: "/language.svg",
+	imagePath: "/images/projects/little/thumnail.jpg",
 	right: true
   },
   {
@@ -24,7 +24,7 @@ const projectsList: ProjectItemType[] = [
 	  "≈ 500,000kr i intäkter",
 	],
 	path: "/projects/robbery",
-	imagePath: "/robbery.svg",
+	imagePath: "/images/projects/robbery/thumnail.png",
 	right: false
   },
 ]
@@ -32,7 +32,7 @@ const projectsList: ProjectItemType[] = [
 export default function Home() {
   return (
     <main>
-	  <Projects
+	  <ProjectsSection
 	    h2="Det här är mina projekt"
 		h3="Här kan du läsa om mina projekt, deras framgångar, arbetsprocesser, tidsåtgång och motivationsfaktorer. Känn ingen stress att läsa allt på en gång, innehållet kommer finnas tillgängligt för dig även senare."
 		list={...projectsList}

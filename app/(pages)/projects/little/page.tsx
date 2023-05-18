@@ -17,7 +17,7 @@ const LittleProject = () => {
 
 	  { /* Sammanfattning */ }
       <section className="flex flex-col gap-4 mx-auto">
-		<Image src="/images/projects/little/hero.png" alt="" width={788} height={489} />
+		<Image src="/images/projects/hero.png" alt="" width={788} height={489} />
   	    <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Sammanfattning</h2>
   	    <h3 className="font-regular font-inter text-gray-500 text-lg lg:text-xl">
 		  Little är ett nytt programmeringsspråk, statiskt skrivet och inspirerat av Lisp, C och Rust. Dess utveckling involverade skapandet av en rad komponenter, inklusive en lexer, parser och assembler, med all kodning utförd i C. Det var en utmanande uppgift, eftersom den krävde behärskning av flera kompilatorkomponenter och inlärning av nya algoritmer.
@@ -26,7 +26,7 @@ const LittleProject = () => {
 
 	  { /* Utmaningar */ }
       <section className="flex flex-col gap-4">
-		<Image src="/images/projects/little/challenges.png" alt="" width={788} height={489} />
+		<Image src="/images/projects/challenges.png" alt="" width={788} height={489} />
   	    <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Utmaningar</h2>
   	    <h3 className="font-regular font-inter text-gray-500 text-lg lg:text-xl space-y-10">
 		  <p>Little är funktionellt och har grundläggande funktioner, men det saknar för närvarande väsentliga komponenter som skräpsamling (garbage collection) och användardefinierade typer. För att förbättra prestanda och effektivitet kan ytterligare funktioner som konstant hopfällning (constant folding), loop unrolling och kodinlining implementeras.</p>
@@ -36,7 +36,7 @@ const LittleProject = () => {
 
 	  { /* Lärningar - Reflektioner - Nästa Steg */ }
       <section className="flex flex-col gap-4">
-		<Image src="/images/projects/little/learning.png" alt="" width={788} height={489} />
+		<Image src="/images/projects/learning.png" alt="" width={788} height={489} />
   	    <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Lärningar - Reflektioner - Nästa Steg</h2>
   	    <h3 className="font-regular font-inter text-gray-500 text-lg lg:text-xl space-y-10">
 		  <p>Utvecklingen av Little var en process fylld med lärdomar. Från utmaningarna i att bygga en lexer, parser och assembler i Assembly, till att lära sig nya algoritmer för att implementera olika komponenter, gav varje steg insikter i programmeringsspråkens konstruktion och funktion. Det blev tydligt att att skapa ett språk inte bara kräver teknisk expertis, utan också en djup förståelse för programmerarnas behov och arbetsflöden.</p>

@@ -6,7 +6,7 @@ export default function Home() {
 	  <div className="flex flex-col lg:flex-row gap-6 py-0">
 	    <div className="hidden lg:block">
 	      <div className="items-center">
-	        <Image src="/images/about/portrait.jpg" alt="" width={500} height={500} />
+	        <Image src="/images/about/portrait.png" alt="" width={500} height={500} />
 	      </div>
 		</div>
 

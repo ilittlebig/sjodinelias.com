@@ -12,7 +12,7 @@ const projectsList: ProjectItemType[] = [
 	  "Snabbt",
 	],
 	path: "/projects/little",
-	imagePath: "/images/projects/little/thumnail.jpg",
+	imagePath: "/images/projects/little/thumnail.png",
 	right: true
   },
   {

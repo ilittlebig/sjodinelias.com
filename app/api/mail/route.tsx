@@ -2,8 +2,8 @@ import { NextResponse } from "next/server"
 const sgMail = require("@sendgrid/mail")
 sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
-const OK_MESSAGE: string = "Ditt meddelande skickades i väg"
-const ERROR_MESSAGE: string = "Det blev något fel, försök igen"
+const OK_MESSAGE: string = "Ditt meddelande skickades i väg!"
+const ERROR_MESSAGE: string = "Något blev fel, försök igen!"
 const SUBJECT: string = "sjodinelias.com | Meddelande"
 
 export async function POST(req: Request) {
@@ -14,6 +14,7 @@ export async function POST(req: Request) {
 	Message: ${body.message}
   `
   var message: string = ""
+  var statusCode: number = 0
 
   await sgMail.send({
 	to: "elias@jamee.se",
@@ -22,9 +23,15 @@ export async function POST(req: Request) {
 	text: msg,
   }).then(() => {
     message = OK_MESSAGE
+	statusCode = 200
   }).catch((error: Error) => {
     message = ERROR_MESSAGE
+	statusCode = 500
   })
 
-  return new Response(JSON.stringify( { message: message } ))
+  return NextResponse.json({
+	message: message
+  }, {
+    status: statusCode
+  })
 }

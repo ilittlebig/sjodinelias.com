@@ -17,7 +17,7 @@ const LittleProject = () => {
 
 	  { /* Sammanfattning */ }
       <section className="flex flex-col gap-4 mx-auto">
-		<Image src="/images/projects/hero.png" alt="" width={788} height={489} />
+		<Image src="/images/projects/hero.webp" alt="" width={788} height={489} />
   	    <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Sammanfattning</h2>
   	    <h3 className="font-regular font-inter text-gray-500 text-lg lg:text-xl">
 		  Mitt spel, utvecklat på Roblox, är ett barnvänligt äventyr där spelare utför ett bankrån inom ramen för en engagerande berättelse. Trots den korta utvecklingstiden har det nått stor framgång, genererat omkring 500 000 kronor, spelats 13 miljoner gånger och uppnått en topp på 2000 samtidiga spelare. Dess framgång bevisar dess kvalitet och förmåga att engagera spelare på ett underhållande sätt.
@@ -26,7 +26,7 @@ const LittleProject = () => {
 
 	  { /* Utmaningar */ }
       <section className="flex flex-col gap-4">
-		<Image src="/images/projects/challenges.png" alt="" width={788} height={489} />
+		<Image src="/images/projects/challenges.webp" alt="" width={788} height={489} />
   	    <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Utmaningar</h2>
   	    <h3 className="font-regular font-inter text-gray-500 text-lg lg:text-xl space-y-10">
 		  <p>Under skapandet av mitt spel på Roblox stötte jag på flera utmaningar. Ett av de största hindren var att utforma spelmekanik som var både engagerande och barnvänlig. Att skapa ett spel med temat bankrån för en yngre publik krävde noga övervägande för att säkerställa att det förblev lämpligt och underhållande.</p>
@@ -38,7 +38,7 @@ const LittleProject = () => {
 
 	  { /* Lärningar - Reflektioner - Nästa Steg */ }
       <section className="flex flex-col gap-4">
-		<Image src="/images/projects/learning.png" alt="" width={788} height={489} />
+		<Image src="/images/projects/learning.webp" alt="" width={788} height={489} />
   	    <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Lärningar - Reflektioner - Nästa Steg</h2>
   	    <h3 className="font-regular font-inter text-gray-500 text-lg lg:text-xl space-y-10">
 		  <p>Genom att utveckla och marknadsföra mitt spel på Roblox, lärde jag mig vikten av att skapa en balans mellan underhållning och lämplighet för en yngre publik. Jag insåg också hur viktigt det är att noggrant planera och prioritera under utvecklingsprocessen för att kunna leverera en högkvalitativ produkt trots tidsbegränsningar.</p>

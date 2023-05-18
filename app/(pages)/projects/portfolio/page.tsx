@@ -17,7 +17,7 @@ const PortfolioProject = () => {
 
 	  { /* Sammanfattning */ }
       <section className="flex flex-col gap-4 mx-auto">
-		<Image src="/images/projects/hero.png" alt="" width={788} height={489} />
+		<Image src="/images/projects/hero.webp" alt="" width={788} height={489} />
   	    <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Sammanfattning</h2>
   	    <h3 className="font-regular font-inter text-gray-500 text-lg lg:text-xl">
 		  <p>Mitt portfolioprojekt är en enkel men effektiv plattform som jag skapat för att presentera alla mina utvecklingsprojekt. Byggd med TypeScript, Tailwind, Next.js och React, och hostad på en egen VPS, fungerar den som mitt digitala skyltfönster för allt jag har åstadkommit inom programmeringen.</p>
@@ -26,7 +26,7 @@ const PortfolioProject = () => {
 
 	  { /* Utmaningar */ }
       <section className="flex flex-col gap-4">
-		<Image src="/images/projects/challenges.png" alt="" width={788} height={489} />
+		<Image src="/images/projects/challenges.webp" alt="" width={788} height={489} />
   	    <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Utmaningar</h2>
   	    <h3 className="font-regular font-inter text-gray-500 text-lg lg:text-xl space-y-10">
 		  <p>Under processen att utveckla och distribuera min portfolio stötte jag på en rad utmaningar. En av de mest betydande var att lära mig att ladda upp hemsidan på en egen VPS och koppla den till en domän. Inledningsvis kunde jag endast åtkomst hemsidan via IP-adressen, inte domänen. Det var först efter noggrann felsökning och justeringar som jag kunde lösa detta problem.</p>
@@ -36,7 +36,7 @@ const PortfolioProject = () => {
 
 	  { /* Lärningar - Reflektioner - Nästa Steg */ }
       <section className="flex flex-col gap-4">
-		<Image src="/images/projects/learning.png" alt="" width={788} height={489} />
+		<Image src="/images/projects/learning.webp" alt="" width={788} height={489} />
   	    <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Lärningar - Reflektioner - Nästa Steg</h2>
   	    <h3 className="font-regular font-inter text-gray-500 text-lg lg:text-xl space-y-10">
 		  <p>Genom processen att bygga och driftsätta denna portfolio har jag lärt mig mycket. Jag har fått djupare insikt i komplexiteten av webbhosting och de utmaningar som kommer med att sköta egen serverhantering. Jag har även förstått vikten av felsökning och att navigera genom trial & error för att lösa oväntade problem, såsom de jag stötte på med Next.js image optimization.</p>

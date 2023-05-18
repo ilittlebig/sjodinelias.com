@@ -30,7 +30,7 @@ const PortfolioProject = () => {
   	    <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Utmaningar</h2>
   	    <h3 className="font-regular font-inter text-gray-500 text-lg lg:text-xl space-y-10">
 		  <p>Under processen att utveckla och distribuera min portfolio stötte jag på en rad utmaningar. En av de mest betydande var att lära mig att ladda upp hemsidan på en egen VPS och koppla den till en domän. Inledningsvis kunde jag endast åtkomst hemsidan via IP-adressen, inte domänen. Det var först efter noggrann felsökning och justeringar som jag kunde lösa detta problem.</p>
-		  <p>En annan utmaning uppstod när hemsidan började frysa och returnera ett "502 Bad Gateway"-fel efter en tid. Efter mycket "trial & error" insåg jag att problemet låg i Next.js "image optimization". När jag inaktiverade detta, löstes problemet, men som en konsekvens är hemsidan inte lika snabb med bildladdning. Trots dessa utmaningar var detta en lärorik erfarenhet som förbättrade min förståelse för webbhosting och felsökning.</p>
+		  <p>En annan utmaning uppstod när hemsidan började frysa och returnera ett 502 Bad Gateway-fel efter en tid. Efter mycket trial & error insåg jag att problemet låg i Next.js image optimization. När jag inaktiverade detta, löstes problemet, men som en konsekvens är hemsidan inte lika snabb med bildladdning. Trots dessa utmaningar var detta en lärorik erfarenhet som förbättrade min förståelse för webbhosting och felsökning.</p>
 		</h3>
   	  </section>
 
@@ -39,7 +39,7 @@ const PortfolioProject = () => {
 		<Image src="/images/projects/learning.png" alt="" width={788} height={489} />
   	    <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Lärningar - Reflektioner - Nästa Steg</h2>
   	    <h3 className="font-regular font-inter text-gray-500 text-lg lg:text-xl space-y-10">
-		  <p>Genom processen att bygga och driftsätta denna portfolio har jag lärt mig mycket. Jag har fått djupare insikt i komplexiteten av webbhosting och de utmaningar som kommer med att sköta egen serverhantering. Jag har även förstått vikten av felsökning och att navigera genom "trial & error" för att lösa oväntade problem, såsom de jag stötte på med Next.js image optimization.</p>
+		  <p>Genom processen att bygga och driftsätta denna portfolio har jag lärt mig mycket. Jag har fått djupare insikt i komplexiteten av webbhosting och de utmaningar som kommer med att sköta egen serverhantering. Jag har även förstått vikten av felsökning och att navigera genom trial & error för att lösa oväntade problem, såsom de jag stötte på med Next.js image optimization.</p>
 		  <p>Denna erfarenhet har också fått mig att reflektera över optimering av webbplatser. Jag har insett att, trots dess fördelar, kan vissa funktioner som bildoptimering ge oväntade problem. Detta har lärt mig vikten av att förstå alla delar av de verktyg jag använder.</p>
 		  <p>Mitt nästa steg är att fokusera på att förbättra bildhanteringen på webbplatsen. Jag tänker undersöka alternativa sätt att optimera bilder utan att påverka webbplatsens prestanda eller stabilitet. Dessutom planerar jag att fortsätta utveckla och lägga till nya projekt i min portfolio för att visa mitt fortgående arbete och utveckling inom webbdesign och programmering.</p>
 		</h3>

@@ -1,12 +1,20 @@
-import { FormValues } from "@/app/hooks/useForm"
+import { FormValues, FormErrors } from "@/app/hooks/useForm"
 
 import FormField from "@/app/components/elements/formField"
 import TextArea from "@/app/components/elements/textArea"
 import Button from "@/app/components/elements/button"
 
+interface ContactFormProps {
+  values: FormValues;
+  errors: FormErrors;
+  handleChange: () => void;
+  success: boolean;
+  messageState: string;
+}
+
 const ContactForm = ({
   values, errors, handleChange, success, messageState
-}: FormValues) => {
+}: ContactFormProps) => {
   return (
     <section className="flex flex-col gap-6 py-16">
 	  <div className="flex flex-col lg:flex-row gap-4">

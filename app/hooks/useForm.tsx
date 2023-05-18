@@ -6,7 +6,7 @@ export type FormValues = {
   email: string;
   message: string;
 }
-type FormErrors = Partial<Record<keyof FormValues, boolean>>
+export type FormErrors = Partial<Record<keyof FormValues, boolean>>
 
 export const useForm = (
   initialValues: FormValues,

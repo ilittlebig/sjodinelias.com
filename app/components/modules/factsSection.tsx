@@ -41,7 +41,7 @@ const FactsSection = () => {
 
   return (
     <section className="flex flex-col gap-8">
-	  <h3 className="font-medium font-inter text-gray-500 text-lg lg:text-xl text-center">Saker som kan vara bra att veta</h3>
+	  <h1 className="font-medium font-inter text-gray-500 text-lg lg:text-xl text-center">Saker som kan vara bra att veta</h1>
 	  <motion.ul
 	    className="flex flex-col lg:flex-row gap-8 mx-auto lg:gap-40"
 	    initial="hidden"

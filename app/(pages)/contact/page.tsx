@@ -47,6 +47,7 @@ export default function Home() {
 
   return (
     <form className="max-w-2xl mx-auto" onSubmit={handleSubmit}>
+      <title>Kontakta Mig</title>
       <section className="flex flex-col pt-16 text-gray-900">
         <section className="flex flex-col gap-5 text-center max-w-3xl mx-auto">
   	      <h2 className="font-semibold font-inter text-3xl lg:text-4xl">Kontakta Mig</h2>

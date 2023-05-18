@@ -14,7 +14,7 @@ const HeroSection = () => {
     show: {
       opacity: 1,
       transition: {
-		staggerChildren: 0.3,
+		staggerChildren: 0.1,
 		staggerDirection: 1
 	  },
     },
@@ -30,7 +30,7 @@ const HeroSection = () => {
 	  y: 0,
 
 	  transition: {
-	    duration: 0.50
+	    duration: 0.30
 	  }
 	}
   }
@@ -95,7 +95,7 @@ const HeroSection = () => {
 		  </motion.div>
 		</motion.div>
 		<div className="lg:w-[1000px] lg:h-[620px] w-full h-[500px] lg:-mt-0 -mt-6 relative">
-		  <Image src="/images/home/hero-illustration.png" alt="" objectFit="contain" layout="fill" />
+		  <Image src="/images/home/hero-illustration.webp" alt="" objectFit="contain" layout="fill" />
 		</div>
 	  </section>
   )

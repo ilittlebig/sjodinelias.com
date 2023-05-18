@@ -12,7 +12,7 @@ const projectsList: ProjectItemType[] = [
 	  "Snabbt",
 	],
 	path: "/projects/little",
-	imagePath: "/images/projects/little/thumnail.png",
+	imagePath: "/images/projects/little/thumnail.webp",
 	right: true
   },
   {
@@ -24,7 +24,7 @@ const projectsList: ProjectItemType[] = [
 	  "≈ 500,000kr i intäkter",
 	],
 	path: "/projects/robbery",
-	imagePath: "/images/projects/robbery/thumnail.png",
+	imagePath: "/images/projects/robbery/thumnail.webp",
 	right: false
   },
   {
@@ -36,7 +36,7 @@ const projectsList: ProjectItemType[] = [
 	  "VPS-hostad",
 	],
 	path: "/projects/portfolio",
-	imagePath: "/images/projects/portfolio/thumnail.png",
+	imagePath: "/images/projects/portfolio/thumnail.webp",
 	right: true
   },
 ]
@@ -44,6 +44,8 @@ const projectsList: ProjectItemType[] = [
 export default function Home() {
   return (
     <main>
+	  <title>Projekt</title>
+
 	  <ProjectsSection
 	    h2="Det här är mina projekt"
 		h3="Här kan du läsa om mina projekt, deras framgångar, arbetsprocesser, tidsåtgång och motivationsfaktorer. Känn ingen stress att läsa allt på en gång, innehållet kommer finnas tillgängligt för dig även senare."

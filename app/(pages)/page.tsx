@@ -16,7 +16,7 @@ const projectsList: ProjectItemType[] = [
 	  "Snabbt",
 	],
 	path: "/projects/little",
-	imagePath: "/images/projects/little/thumnail.png",
+	imagePath: "/images/projects/little/thumnail.webp",
 	right: true
   },
   {
@@ -28,7 +28,7 @@ const projectsList: ProjectItemType[] = [
 	  "≈ 500,000kr i intäkter",
 	],
 	path: "/projects/robbery",
-	imagePath: "/images/projects/robbery/thumnail.png",
+	imagePath: "/images/projects/robbery/thumnail.webp",
 	right: false
   },
 ]
@@ -36,6 +36,8 @@ const projectsList: ProjectItemType[] = [
 export default function Home() {
   return (
     <main>
+	  <title>Home</title>
+
 	  <HeroSection />
 	  <FactsSection />
 

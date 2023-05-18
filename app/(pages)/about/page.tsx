@@ -3,6 +3,7 @@ import Image from "next/image"
 export default function Home() {
   return (
     <main>
+      <title>Om Mig</title>
 	  <div className="flex flex-col lg:flex-row gap-6 py-0">
 	    <div className="hidden lg:block">
 	      <div className="items-center">

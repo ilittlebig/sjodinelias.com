@@ -27,6 +27,18 @@ const projectsList: ProjectItemType[] = [
 	imagePath: "/images/projects/robbery/thumnail.png",
 	right: false
   },
+  {
+    header: "Portfolio",
+	description: "Min portfolio är en webbapplikation som jag har skapat med TypeScript, Tailwind, Next.js och React. Den visar mina projekt och är hostad på en VPS med Nginx och PM2.",
+	bulletList: [
+	  "TypeScript & Tailwind",
+	  "Next.js & React",
+	  "VPS-hostad",
+	],
+	path: "/projects/portfolio",
+	imagePath: "/images/projects/portfolio/thumnail.png",
+	right: true
+  },
 ]
 
 export default function Home() {

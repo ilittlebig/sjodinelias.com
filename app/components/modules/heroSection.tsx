@@ -94,8 +94,8 @@ const HeroSection = () => {
 			/>
 		  </motion.div>
 		</motion.div>
-		<div className="lg:w-[1000px] w-full">
-		  <Image src="/images/home/hero-illustration.svg" alt="" width={343} height={622} />
+		<div className="lg:w-[1000px] lg:h-[620px] w-full h-[500px] lg:-mt-0 -mt-6 relative">
+		  <Image src="/images/home/hero-illustration.png" alt="" objectFit="contain" layout="fill" />
 		</div>
 	  </section>
   )

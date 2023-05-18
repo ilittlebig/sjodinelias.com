@@ -70,7 +70,7 @@ const ProjectsSection = ({ h2, h3, list }: ProjectsProps) => {
   			{!projectItem.right && (
 			  <div className="hidden lg:block w-3/5 h-[400px] absolute -translate-x-[150px]">
   			    <motion.div className="w-full h-full relative rounded-xl overflow-hidden" variants={item}>
-  			      <Image src={projectItem.imagePath} alt="" layout="fill" objectFit="cover" className="rounded-1/2" />
+  			      <Image src={projectItem.imagePath} alt="" layout="fill" objectFit="contain" className="rounded-1/2" />
   			    </motion.div>
 			  </div>
   			)}
@@ -117,7 +117,7 @@ const ProjectsSection = ({ h2, h3, list }: ProjectsProps) => {
 			{projectItem.right && (
 			  <div className="hidden lg:block w-3/5 h-[400px] absolute right-0 translate-x-[150px]">
   			    <motion.div className="w-full h-full relative rounded-xl overflow-hidden" variants={item}>
-  			      <Image src={projectItem.imagePath} alt="" layout="fill" objectFit="cover" className="rounded-1/2" />
+  			      <Image src={projectItem.imagePath} alt="" layout="fill" objectFit="contain" className="rounded-1/2" />
   			    </motion.div>
 			  </div>
   			)}

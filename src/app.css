@@ -2,10 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
 @font-face {
   font-family: "Montserrat";
   src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
@@ -130,4 +126,16 @@ body {
   src: url("/fonts/Montserrat-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-b from-[#847576] to-black/0 bg-clip-text text-transparent;
 }

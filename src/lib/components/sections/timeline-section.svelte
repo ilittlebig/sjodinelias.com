@@ -16,16 +16,22 @@
       year: 2024,
     },
     {
-      image: "microsoft-logo.svg",
-      alt: "Microsoft Logo",
+      image: "roblox-logo.svg",
+      alt: "Roblox Logo",
       description: "Some text about some work and this is some text. This is more text, I don't know exactly what to say.",
-      year: 2024,
+      year: 2023,
     },
     {
       image: "microsoft-logo.svg",
       alt: "Microsoft Logo",
       description: "Some text about some work and this is some text. This is more text, I don't know exactly what to say.",
-      year: 2024,
+      year: 2022,
+    },
+    {
+      image: "microsoft-logo.svg",
+      alt: "Microsoft Logo",
+      description: "Some text about some work and this is some text. This is more text, I don't know exactly what to say.",
+      year: 2021,
     },
   ];
 </script>
@@ -64,7 +70,7 @@
   </div>
 {/snippet}
 
-<div class="flex flex-col gap-y-8 items-center h-screen">
+<div class="flex flex-col gap-y-8 items-center">
   <div class="relative h-fit">
     <p class="font-playfair italic font-bold text-[150px] opacity-10 text-gradient leading-none">
       Experience

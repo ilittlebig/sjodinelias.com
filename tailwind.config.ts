@@ -11,7 +11,10 @@ export default {
         "subtext": "#C8B2B3",
         "blue": "#3E41FF",
         "dark-border": "#1E1E1E",
-      }
+      },
+      borderRadius: {
+        "card": "19px",
+      },
     }
   },
 

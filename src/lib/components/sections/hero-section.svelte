@@ -13,7 +13,7 @@
 
     gsap.from(".animate", {
       opacity: 0,
-      y: 30,
+      y: 40,
       duration: 1,
       stagger: 0.3,
       ease: "power2.out",
@@ -51,7 +51,7 @@
 <div class="flex items-center justify-center h-screen">
   <div class="flex flex-col gap-y-12 items-center animate">
     <p class="text-subtext text-2xl text-center">
-      Hello! I’m <span class="text-grayish">Elias Sjödin</span>,
+      Hello! I’m <span class="text-grayish italic">Elias Sjödin</span>,
       <br/>
       front-end developer based in Sweden.
     </p>

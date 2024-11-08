@@ -71,13 +71,13 @@
 {/snippet}
 
 <div class="flex flex-col gap-y-8 items-center">
-  <div class="relative h-fit">
+  <div class="relative">
     <p class="font-playfair italic font-bold text-[150px] opacity-10 text-gradient leading-none">
       Experience
     </p>
-    <div class="text-2xl text-grayish absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+    <p class="text-2xl text-subtext absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
       Previously worked at
-    </div>
+    </p>
   </div>
 
   <div class="flex flex-col gap-y-36 items-center max-w-4xl">

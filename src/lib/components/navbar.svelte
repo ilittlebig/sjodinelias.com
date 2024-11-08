@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex justify-between items-center p-8 absolute w-full">
-  <p class="text-grayish text-2xl font-semibold">sjodinelias</p>
+  <p class="text-grayish text-2xl font-semibold select-none">sjodinelias</p>
   <div class="flex gap-x-12">
     <div class="flex items-center gap-x-2">
       <p class="text-grayish">Resume</p>

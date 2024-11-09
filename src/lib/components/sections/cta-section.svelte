@@ -4,12 +4,12 @@
   import Chip from "$lib/components/chip.svelte";
 </script>
 
-<div class="flex flex-col gap-y-[304px] items-center pb-64">
+<div class="flex flex-col gap-y-32 items-center pb-64 relative">
   <div class="flex flex-col gap-y-8 items-center">
     <p class="font-playfair italic text-6xl text-subtext">
       Like what you see?
     </p>
-    <p class="text-5xl text-subtext">
+    <p class="text-5xl text-subtext/50">
       Get in touch
     </p>
   </div>
@@ -34,4 +34,6 @@
       </a>
     </div>
   </div>
+
+  <img src="/glow.png" alt="Glow Effect" width={900} height={900} class="absolute -top-1/2 select-none -z-10" />
 </div>

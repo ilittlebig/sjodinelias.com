@@ -10,12 +10,14 @@
 
 <Cursor />
 
-<Navbar />
-<HeroSection />
+<div class="max-w-6xl ml-auto mr-auto relative">
+  <Navbar />
+  <HeroSection />
 
-<div class="flex flex-col gap-y-[304px]">
-  <TimelineSection />
-  <ProjectsSection />
-  <BackgroundSection />
-  <CtaSection />
+  <div class="flex flex-col gap-y-[304px]">
+    <TimelineSection />
+    <ProjectsSection />
+    <BackgroundSection />
+  </div>
 </div>
+<CtaSection />

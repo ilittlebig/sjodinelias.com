@@ -10,7 +10,7 @@
       <HoverTextAnimation label="Resume" />
       <SquareArrowOutUpRight class="text-grayish w-6 h-6" />
     </a>
-    <a href="/" class="flex items-center gap-x-2 expand-on-hover">
+    <a href="https://www.linkedin.com/in/elias-sj%C3%B6din-504a6322a/" class="flex items-center gap-x-2 expand-on-hover">
       <HoverTextAnimation label="Linkedin" />
       <SquareArrowOutUpRight class="text-grayish w-6 h-6" />
     </a>

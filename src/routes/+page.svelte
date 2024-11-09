@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Cursor from "$lib/components/cursor.svelte";
   import Navbar from "$lib/components/navbar.svelte";
   import HeroSection from "$lib/components/sections/hero-section.svelte";
   import TimelineSection from "$lib/components/sections/timeline-section.svelte";
@@ -6,6 +7,8 @@
   import BackgroundSection from "$lib/components/sections/background-section.svelte";
   import CtaSection from "$lib/components/sections/cta-section.svelte";
 </script>
+
+<Cursor />
 
 <Navbar />
 <HeroSection />

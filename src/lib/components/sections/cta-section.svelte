@@ -6,18 +6,20 @@
 
 <div class="flex flex-col gap-y-32 items-center pb-64 relative">
   <div class="flex flex-col gap-y-8 items-center">
-    <p class="font-playfair italic text-6xl text-subtext">
+    <p class="font-playfair italic text-6xl text-grayish">
       Like what you see?
     </p>
-    <p class="text-5xl text-subtext/50">
+    <p class="text-5xl text-subtext">
       Get in touch
     </p>
   </div>
 
+  <div class="w-full h-px bg-gradient-to-r from-transparent via-blue to-transparent max-w-lg" />
+
   <div class="flex gap-x-32">
     <div class="flex flex-col items-center">
       <p class="text-subtext">Email</p>
-      <p class="text-3xl text-subtext">elias@jamee.se</p>
+      <p class="text-3xl text-grayish">elias@jamee.se</p>
     </div>
     <div class="flex flex-col items-center">
       <p class="text-subtext">Social</p>

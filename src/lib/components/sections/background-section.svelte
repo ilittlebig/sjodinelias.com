@@ -1,5 +1,30 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
   import Chip from "$lib/components/chip.svelte";
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  onMount(() => {
+    gsap.utils.toArray(".text-highlight").forEach(element => {
+      gsap.fromTo(
+        element,
+        { backgroundSize: "0% 100%" },
+        {
+          backgroundSize: "100% 100%",
+          backgroundImage: "linear-gradient(90deg, #f2f20d, #f2f20d)",
+          scrollTrigger: {
+            trigger: element,
+            start: "top 75%",
+            end: "bottom 25%",
+            toggleActions: "play reverse play reverse",
+            scrub: true,
+          },
+        }
+      );
+    });
+  });
 </script>
 
 <div class="flex flex-col gap-y-8 items-center">
@@ -13,17 +38,17 @@
   </div>
 
   <div class="flex gap-x-16 max-w-4xl">
-    <img src="project-image.png" class="bg-white rounded-card w-full w-[313px] h-[375px]" />
+    <img src="profile-picture.jpeg" class="bg-white rounded-card w-full w-[313px] h-[375px] object-cover" />
 
     <div class="flex flex-col gap-y-6">
       <p class="text-grayish">
-        Software developer with nearly a <span class="text-blue">decade of experience</span>.
+        Software developer with nearly a <span class="text-highlight">decade of experience</span>.
         To me, programming is more than a job—it’s a hobby I’m lucky to get paid for.
         I focus on clean, structured code, thorough documentation, and comprehensive testing to ensure quality and maintainability.
       </p>
       <p class="text-grayish">
         I take pride in writing code that’s clean, maintainable, and easy for others to work with.
-        Whether collaborating with a team or tackling a project solo, I strive to create user-friendly, accessible interfaces that turn complex ideas into seamless experiences.
+        Whether collaborating with a team or tackling a project solo, I strive to create <span class="text-highlight">user-friendly, accessible interfaces</span> that turn complex ideas into seamless experiences.
       </p>
       <div class="flex gap-x-2">
         <Chip variant="outline" label="Social" />
@@ -33,3 +58,9 @@
     </div>
   </div>
 </div>
+
+<style lang="postcss">
+  .text-highlight {
+    @apply bg-no-repeat text-black;
+  }
+</style>

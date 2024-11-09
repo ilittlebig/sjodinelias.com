@@ -1,5 +1,6 @@
 <script lang="ts">
   import SquareArrowOutUpRight from "lucide-svelte/icons/square-arrow-out-up-right";
+  import HoverTextAnimation from "$lib/components/hover-text-animation.svelte";
   import Chip from "$lib/components/chip.svelte";
 </script>
 
@@ -20,17 +21,17 @@
     </div>
     <div class="flex flex-col items-center">
       <p class="text-subtext">Social</p>
-      <div class="flex items-center gap-x-2">
-        <p class="text-3xl text-subtext">Linkedin</p>
+      <a href="/" class="flex items-center gap-x-2 expand-on-hover">
+        <HoverTextAnimation label="Linkedin" size="3xl" />
         <SquareArrowOutUpRight class="text-grayish w-6 h-6" />
-      </div>
+      </a>
     </div>
     <div class="flex flex-col items-center">
       <p class="text-subtext">Projects</p>
-      <div class="flex items-center gap-x-2">
-        <p class="text-3xl text-subtext">Github</p>
+      <a href="/" class="flex items-center gap-x-2 expand-on-hover">
+        <HoverTextAnimation label="Github" size="3xl" />
         <SquareArrowOutUpRight class="text-grayish w-6 h-6" />
-      </div>
+      </a>
     </div>
   </div>
 </div>

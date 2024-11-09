@@ -10,7 +10,7 @@
   } = $props();
 </script>
 
-<div class="flex flex-col gap-y-4 w-[556px] expand-on-hover">
+<a href="/" class="flex flex-col gap-y-4 w-[556px] expand-on-hover">
   <img src={image} class="bg-white rounded-card w-full h-[348px]" />
   <div class="flex gap-x-5">
     <Chip variant="filled" label={type} />
@@ -22,4 +22,4 @@
   </div>
   <p class="text-2xl text-grayish font-semibold">{title}</p>
   <p class="text-xl text-subtext">{description}</p>
-</div>
+</a>

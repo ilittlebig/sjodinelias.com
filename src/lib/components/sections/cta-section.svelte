@@ -22,14 +22,14 @@
       </div>
       <div class="flex flex-col items-center">
         <p class="text-subtext">Social</p>
-        <a href="/" class="flex items-center gap-x-2 expand-on-hover">
+        <a href="https://www.linkedin.com/in/elias-sj%C3%B6din-504a6322a/" class="flex items-center gap-x-2 expand-on-hover">
           <HoverTextAnimation label="Linkedin" size="lg" />
           <SquareArrowOutUpRight class="text-grayish w-6 h-6" />
         </a>
       </div>
       <div class="flex flex-col items-center">
         <p class="text-subtext">Projects</p>
-        <a href="/" class="flex items-center gap-x-2 expand-on-hover">
+        <a href="https://www.github.com/ilittlebig/" class="flex items-center gap-x-2 expand-on-hover">
           <HoverTextAnimation label="Github" size="lg" />
           <SquareArrowOutUpRight class="text-grayish w-6 h-6" />
         </a>

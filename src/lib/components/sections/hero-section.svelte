@@ -48,35 +48,40 @@
   });
 </script>
 
-<div class="flex items-center justify-center h-screen">
+<div class="flex items-center justify-center h-screen px-3 md:px-0">
   <div class="flex flex-col gap-y-12 items-center animate">
-    <p class="text-subtext text-2xl text-center">
+    <p class="text-subtext text-lg md:text-2xl text-center">
       Hello! I’m <span class="text-grayish italic">Elias Sjödin</span>,
       <br/>
       front-end developer based in Sweden.
     </p>
-    <p class="text-5xl text-center font-semibold bg-gradient-to-b from-grayish to-[#958B8C] bg-clip-text text-transparent">
+    <p class="text-3xl lg:text-5xl text-center font-semibold bg-gradient-to-b from-grayish to-[#958B8C] bg-clip-text text-transparent">
       Building seamless, accessible
-      <br/>
+      <br class="hidden md:block" />
       interfaces that bring ideas to life.
     </p>
 
     <div class="flex items-center justify-center relative w-full h-[46px]">
       {#each images as image, index}
-        <img src={image} id={"image-" + index} width={767} height={46} class="absolute top-1/2 transform -translate-y-1/2 opacity-0" />
+        <img
+          src={image}
+          id={"image-" + index}
+          width={767}
+          class="absolute top-1/2 transform -translate-y-1/2 opacity-0"
+        />
       {/each}
     </div>
 
     <div class="w-full h-px bg-gradient-to-r from-transparent via-blue to-transparent" />
 
-    <div class="flex gap-x-4 items-center">
-      <p class="text-subtext text-xl">Currently</p>
-      <p class="text-subtext text-xl">@</p>
-      <img src="/logos/microsoft-logo.svg" alt="Microsoft Logo" class="h-6" />
-      <p class="text-subtext text-xl">|</p>
-      <p class="text-subtext text-xl">Previously</p>
-      <p class="text-subtext text-xl">@</p>
-      <img src="/logos/roblox-logo.svg" alt="Roblox Logo" class="h-6" />
+    <div class="flex gap-x-3 md:gap-x-4 items-center">
+      <p class="text-subtext text-xs md:text-xl">Currently</p>
+      <p class="text-subtext text-xs md:text-xl">@</p>
+      <img src="/logos/microsoft-logo.svg" alt="Microsoft Logo" class="h-4 md:h-6" />
+      <p class="text-subtext text-xs md:text-xl">|</p>
+      <p class="text-subtext text-xs md:text-xl">Previously</p>
+      <p class="text-subtext text-xs md:text-xl">@</p>
+      <img src="/logos/roblox-logo.svg" alt="Roblox Logo" class="h-4 md:h-6" />
     </div>
   </div>
 

@@ -84,13 +84,13 @@
 </script>
 
 {#snippet year(job: Job, isLeft: boolean)}
-  <div class={cn("timeline-year w-1/2", isLeft ? "pr-16 text-right" : "pl-16 text-left")}>
-    <p class="text-5xl font-medium text-grayish">{job.year}</p>
+  <div class={cn("timeline-year md:w-1/2", isLeft ? "md:pr-16 md:text-right" : "md:pl-16 md:text-left")}>
+    <p class="text-3xl md:text-5xl font-medium text-grayish">{job.year}</p>
   </div>
 {/snippet}
 
 {#snippet connector(index: number)}
-  <div class="relative flex flex-col items-center">
+  <div class="relative hidden md:flex flex-col items-center">
     {#if index === 0}
       <div class="h-5 w-5 bg-blue rounded-full" />
     {:else}
@@ -103,31 +103,29 @@
 {/snippet}
 
 {#snippet jobDetails(job: Job, isLeft: boolean)}
-    <div class={cn("timeline-year w-1/2 flex items-center", isLeft ? "pl-16" : "pr-16")}>
+    <div class={cn("timeline-year md:w-1/2 flex items-center", isLeft ? "md:pl-16" : "md:pr-16")}>
     <div class="flex flex-col items-start gap-y-3">
       <img src="/logos/{job.image}" alt={job.alt} class="h-8">
-      <p class="text-subtext">
-        {job.description}
-      </p>
+      <p class="text-subtext">{job.description}</p>
     </div>
   </div>
 {/snippet}
 
 <div class="flex flex-col gap-y-8 items-center timeline-section">
   <div class="relative">
-    <p class="font-playfair italic font-bold text-[150px] opacity-10 text-gradient leading-none">
+    <p class="font-playfair italic font-bold text-[70px] md:text-[150px] opacity-10 text-gradient leading-none">
       Experience
     </p>
-    <p class="text-2xl text-subtext absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+    <p class="text-lg md:text-2xl text-nowrap text-subtext absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
       Previously worked at
     </p>
   </div>
 
-  <div class="flex flex-col gap-y-36 items-center max-w-4xl relative">
-    <div class="timeline-gradient-overlay absolute top-[50px] left-1/2 transform -translate-x-1/2 w-0.5 h-[calc(100%-80px)] bg-gradient-to-b from-blue to-transparent scale-y-0 z-10" />
+  <div class="flex flex-col gap-y-24 md:gap-y-36 items-center max-w-4xl relative">
+    <div class="timeline-gradient-overlay absolute top-[50px] left-1/2 transform -translate-x-1/2 w-0.5 h-[calc(100%-80px)] bg-gradient-to-b from-blue to-transparent scale-y-0 z-10 hidden md:block" />
 
     {#each jobs as job, index}
-      <div class="flex items-center justify-between">
+      <div class="flex items-center gap-x-6 md:justify-between px-6 md:px-0">
         {#if index % 2 === 0}
           {@render year(job, true)}
           {@render connector(index)}

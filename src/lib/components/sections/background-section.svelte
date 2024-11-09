@@ -29,15 +29,15 @@
 
 <div class="flex flex-col gap-y-8 items-center">
   <div class="relative">
-    <p class="font-playfair italic font-bold text-[150px] opacity-10 text-gradient leading-none">
+    <p class="font-playfair italic font-bold text-[70px] md:text-[150px] opacity-10 text-gradient leading-none">
       Background
     </p>
-    <p class="text-2xl text-subtext absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+    <p class="text-lg md:text-2xl text-subtext absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
       Get to know me
     </p>
   </div>
 
-  <div class="flex gap-x-16 max-w-4xl">
+  <div class="flex flex-col items-center md:items-start md:flex-row gap-y-8 gap-x-16 max-w-4xl px-3 md:px-0">
     <img src="profile-picture.jpeg" class="bg-white rounded-card w-full w-[313px] h-[375px] object-cover" />
 
     <div class="flex flex-col gap-y-6">

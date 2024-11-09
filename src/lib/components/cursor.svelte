@@ -27,7 +27,7 @@
   });
 </script>
 
-<div bind:this={cursor} class="custom-cursor" />
+<div bind:this={cursor} class="custom-cursor hidden md:block" />
 
 <style lang="postcss">
   .custom-cursor {

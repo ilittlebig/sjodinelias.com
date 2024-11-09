@@ -76,7 +76,7 @@
   });
 </script>
 
-<div class="grid grid-cols-2 gap-[90px] projects-section">
+<div class="flex flex-col gap-y-16 md:grid md:grid-cols-2 md:gap-[90px] projects-section">
   {#each projects as project}
     <ProjectCard {...project} />
   {/each}

@@ -14,5 +14,5 @@
   {#if variant === "filled"}
     <div class="w-2 h-2 shrink-0 rounded-full bg-grayish" />
   {/if}
-  <p class="text-grayish text-sm">{label}</p>
+  <p class="text-grayish text-xs md:text-sm">{label}</p>
 </div>

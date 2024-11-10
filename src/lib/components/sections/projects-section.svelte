@@ -17,17 +17,17 @@
   const projects: Project[] = [
     {
       title: "Internal Company Application",
-      description: "Internal application for handling customers, and developer workflows.",
+      description: "Internal application for handling customers, and developer tools.",
       type: "Work",
       tags: ["JavaScript", "Next.js", "Vercel"],
-      image: "project-image.png",
+      image: "internal-application.png",
     },
     {
       title: "Easy Auth",
       description: "AWS Cognito authentication library using AWS SDK with SRP-based login.",
       type: "Side Project",
       tags: ["JavaScript", "Next.js", "Vercel"],
-      image: "project-image.png",
+      image: "easy-auth.png",
     },
     {
       title: "Eliasmattor",
@@ -41,21 +41,21 @@
       description: "A custom programming language made in C.",
       type: "Side Project",
       tags: ["JavaScript", "Next.js", "Vercel"],
-      image: "project-image.png",
+      image: "little-lang.png",
     },
     {
       title: "Dynamo To Cognito",
       description: "Migrates users from AWS DynamoDB to AWS Cognito.",
       type: "Side Project",
       tags: ["JavaScript", "Next.js", "Vercel"],
-      image: "project-image.png",
+      image: "dynamo-to-cognito.png",
     },
     {
       title: "Robbery (Story)",
       description: "Game on Roblox, played over 12 million times, with microtransactions.",
       type: "Side Project",
       tags: ["JavaScript", "Next.js", "Vercel"],
-      image: "project-image.png",
+      image: "robbery-story.png",
     },
   ];
 

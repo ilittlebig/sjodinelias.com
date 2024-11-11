@@ -52,7 +52,7 @@
   <div class="flex flex-col gap-y-4">
     <p class="text-grayish text-lg font-semibold">Feature Overview</p>
 
-    <div class="flex flex-col gap-y-4 items-center">
+    <div class="flex flex-col items-center">
       <div class="flex gap-x-16 items-center">
         <div class="flex items-center justify-center">
           <img src="bastion.png" class="rounded-card w-[580px] h-[500px] object-contain" />

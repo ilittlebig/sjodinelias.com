@@ -4,7 +4,10 @@
 </script>
 
 <div class="flex justify-between items-center p-8 absolute w-full">
-  <p class="text-grayish text-lg lg:text-2xl font-semibold select-none">sjodinelias</p>
+  <a href="/" class="expand-on-hover">
+    <img src="sjodinelias.svg" class="h-8 select-none" />
+  </a>
+
   <div class="flex gap-x-6 md:gap-x-12">
     <a href="/" class="flex items-center gap-x-2 expand-on-hover">
       <HoverTextAnimation label="Resume" />

@@ -12,6 +12,7 @@
     type: string;
     tags: string[];
     image: string;
+    href: string;
   }
 
   const projects: Project[] = [
@@ -21,6 +22,7 @@
       type: "Work",
       tags: ["JavaScript", "Svelte", "Tauri"],
       image: "internal-application.png",
+      href: "/internal-company-application",
     },
     {
       title: "Easy Auth",
@@ -28,6 +30,7 @@
       type: "Side Project",
       tags: ["TypeScript", "AWS Cognito", "AWS SDK"],
       image: "easy-auth.png",
+      href: "/",
     },
     {
       title: "Eliasmattor",
@@ -35,6 +38,7 @@
       type: "Side Project",
       tags: ["JavaScript", "Next.js", "Vercel"],
       image: "project-image.png",
+      href: "/",
     },
     {
       title: "Personal Portfolio",
@@ -42,6 +46,7 @@
       type: "Side Project",
       tags: ["TypeScript", "Svelte", "Vercel"],
       image: "personal-portfolio.png",
+      href: "/",
     },
     {
       title: "Little",
@@ -49,6 +54,7 @@
       type: "Side Project",
       tags: ["C", "GCC", "Make"],
       image: "little-lang.png",
+      href: "/",
     },
     {
       title: "Dynamo To Cognito",
@@ -56,6 +62,7 @@
       type: "Side Project",
       tags: ["JavaScript", "AWS DynamoDB", "AWS Cognito"],
       image: "dynamo-to-cognito.png",
+      href: "/",
     },
     {
       title: "Robbery (Story)",
@@ -63,6 +70,7 @@
       type: "Side Project",
       tags: ["Lua", "Roblox Studio"],
       image: "robbery-story.png",
+      href: "/",
     },
   ];
 

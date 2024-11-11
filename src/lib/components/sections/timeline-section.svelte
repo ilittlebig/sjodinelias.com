@@ -22,7 +22,7 @@
     },
     {
       image: "trading.webp",
-      alt: "Roblox Logo",
+      alt: "Trading Logo",
       description: "Worked with a senior software engineer on a trading algorithm, contributing to its design and optimization.",
       year: 2023,
     },

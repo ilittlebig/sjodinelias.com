@@ -77,7 +77,7 @@
     <div class="flex gap-x-3 md:gap-x-4 items-center">
       <p class="text-subtext text-xs md:text-xl">Currently</p>
       <p class="text-subtext text-xs md:text-xl">@</p>
-      <img src="/logos/microsoft-logo.svg" alt="Microsoft Logo" class="h-4 md:h-6" />
+      <img src="/logos/am-system.svg" alt="Microsoft Logo" class="h-4 md:h-6" />
       <p class="text-subtext text-xs md:text-xl">|</p>
       <p class="text-subtext text-xs md:text-xl">Previously</p>
       <p class="text-subtext text-xs md:text-xl">@</p>

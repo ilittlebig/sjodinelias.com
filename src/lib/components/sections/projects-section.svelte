@@ -37,6 +37,13 @@
       image: "project-image.png",
     },
     {
+      title: "Personal Portfolio",
+      description: "Portfolio showcasing previous projects, and work experience.",
+      type: "Side Project",
+      tags: ["TypeScript", "Svelte", "Vercel"],
+      image: "personal-portfolio.png",
+    },
+    {
       title: "Little",
       description: "A custom programming language made in C.",
       type: "Side Project",
@@ -56,13 +63,6 @@
       type: "Side Project",
       tags: ["Lua", "Roblox Studio"],
       image: "robbery-story.png",
-    },
-    {
-      title: "Personal Portfolio",
-      description: "Portfolio showcasing previous projects, and work experience.",
-      type: "Side Project",
-      tags: ["TypeScript", "Svelte", "Vercel"],
-      image: "personal-portfolio.png",
     },
   ];
 

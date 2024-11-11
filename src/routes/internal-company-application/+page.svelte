@@ -2,7 +2,7 @@
   import HeroSection from "$lib/components/sections/hero-section.svelte";
 </script>
 
-<div class="flex flex-col gap-y-16 mt-24 p-8">
+<div class="flex flex-col gap-y-32 mt-24 p-8">
   <div class="flex flex-col gap-y-8">
     <p class="text-grayish text-3xl font-semibold">Internal Company Application</p>
     <div class="flex items-center justify-center">
@@ -33,51 +33,81 @@
     </div>
   </div>
 
-  <div class="flex flex-col gap-y-4">
-    <p class="text-grayish text-lg font-semibold">Features</p>
+  <div class="flex flex-col gap-y-16">
+    <div class="flex justify-center relative">
+      <p class="font-playfair italic font-bold text-[70px] md:text-[150px] opacity-10 text-gradient leading-none">
+        Features
+      </p>
+      <p class="text-lg md:text-2xl text-nowrap text-subtext absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        Most Frequently Used
+      </p>
+    </div>
 
-    <div class="flex flex-col gap-y-2 pl-4">
-      <p class="text-subtext">Manage Users</p>
-      <p class="text-subtext">Access AWS RDS</p>
-      <p class="text-subtext">Manage Customers</p>
-      <p class="text-subtext">Generate Wifi Codes</p>
-      <p class="text-subtext">Deploy Code</p>
-      <p class="text-subtext">Ask AI</p>
-      <p class="text-subtext">Manage Release Notes</p>
-      <p class="text-subtext">Deployment Rate Dashboard</p>
-      <p class="text-subtext">DevSecOps Mature Model</p>
+    <div class="flex flex-col gap-y-4">
+      <div class="flex flex-col gap-y-32 items-center">
+        <div class="flex gap-x-16 items-center">
+          <div class="flex flex-col gap-y-4 max-w-md">
+            <p class="text-grayish text-lg font-semibold">CI/CD Workflow Tools</p>
+            <p class="text-subtext">
+              Automate code deployment, testing, and blue-green deployments. The “Deploy” button triggers these processes, ensuring efficient, reliable, and smooth transitions to production.
+            </p>
+          </div>
+
+          <div class="flex items-center justify-center">
+            <img src="deploy-page.png" class="rounded-card w-[580px] h-[375px] object-contain shadow-card" />
+          </div>
+        </div>
+
+        <div class="flex gap-x-16 items-center">
+          <div class="flex items-center justify-center">
+            <img src="bastion-page.png" class="rounded-card w-[580px] h-[375px] object-contain shadow-card" />
+          </div>
+
+          <div class="flex flex-col gap-y-4 max-w-md">
+            <p class="text-grayish text-lg font-semibold">Interact with AWS RDS</p>
+            <p class="text-subtext">
+              Enables authorized DevOps team members to connect to and manage AWS RDS instances. It supports tasks like monitoring and maintenance, with restricted access to ensure secure, role-based usage.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-x-16 items-center">
+          <div class="flex flex-col gap-y-4 max-w-md">
+            <p class="text-grayish text-lg font-semibold">List All Customers</p>
+            <p class="text-subtext max-w-md">
+              Dialog for managing customer systems, including enabling features, activating or deactivating modules, modifying licenses, and viewing customer data.
+            </p>
+          </div>
+
+          <div class="flex items-center justify-center">
+            <img src="systems-page.png" class="rounded-card w-[580px] h-[375px] object-contain shadow-card" />
+          </div>
+        </div>
+
+        <div class="flex gap-x-16 items-center">
+          <div class="flex items-center justify-center">
+            <img src="system-dialog.png" class="rounded-card w-[580px] h-[375px] object-contain shadow-card" />
+          </div>
+
+          <div class="flex flex-col gap-y-4 max-w-md">
+            <p class="text-grayish text-lg font-semibold">Manage Customer Systems</p>
+            <p class="text-subtext max-w-md">
+              Dialog for managing customer systems, including enabling features, activating or deactivating modules, modifying licenses, and viewing customer data.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="flex flex-col gap-y-4">
-    <p class="text-grayish text-lg font-semibold">Feature Overview</p>
-
-    <div class="flex flex-col items-center">
-      <div class="flex gap-x-16 items-center">
-        <div class="flex items-center justify-center">
-          <img src="bastion.png" class="rounded-card w-[580px] h-[500px] object-contain" />
-        </div>
-
-        <div class="flex flex-col gap-y-4 max-w-md">
-          <p class="text-grayish text-lg font-semibold">Interact with AWS RDS</p>
-          <p class="text-subtext">
-            Enables authorized DevOps team members to connect to and manage AWS RDS instances. It supports tasks like monitoring and maintenance, with restricted access to ensure secure, role-based usage.
-          </p>
-        </div>
-      </div>
-
-      <div class="flex gap-x-16 items-center">
-        <div class="flex flex-col gap-y-4 max-w-md">
-          <p class="text-grayish text-lg font-semibold">Manage Customer Systems</p>
-          <p class="text-subtext max-w-md">
-            Dialog for managing customer systems, including enabling features, activating or deactivating modules, modifying licenses, and viewing customer data.
-          </p>
-        </div>
-
-        <div class="flex items-center justify-center">
-          <img src="system-dialog.png" class="rounded-card w-[550px] h-[500px] object-contain" />
-        </div>
-      </div>
+  <div class="flex flex-col gap-y-16">
+    <div class="flex justify-center relative">
+      <p class="font-playfair italic font-bold text-[70px] md:text-[150px] opacity-10 text-gradient leading-none">
+        Difficulties
+      </p>
+      <p class="text-lg md:text-2xl text-nowrap text-subtext absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        Obstacles and Insights
+      </p>
     </div>
   </div>
 </div>

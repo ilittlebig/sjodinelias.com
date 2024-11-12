@@ -53,14 +53,18 @@
             </p>
           </div>
 
-          <div class="flex items-center justify-center">
-            <img src="deploy-page.png" class="rounded-card w-[580px] h-[375px] object-contain shadow-card" />
+          <div class="flex justify-center relative w-[800px] h-[517px]">
+            <div class="absolute w-[800px] h-full left-0">
+              <img src="deploy-page.png" class="rounded-card object-fill shadow-card" />
+            </div>
           </div>
         </div>
 
         <div class="flex gap-x-16 items-center">
-          <div class="flex items-center justify-center">
-            <img src="bastion-page.png" class="rounded-card w-[580px] h-[375px] object-contain shadow-card" />
+          <div class="flex justify-center relative w-[800px] h-[517px]">
+            <div class="absolute w-[800px] h-full right-0">
+              <img src="bastion-page.png" class="rounded-card object-fill shadow-card" />
+            </div>
           </div>
 
           <div class="flex flex-col gap-y-4 max-w-md">
@@ -74,24 +78,28 @@
         <div class="flex gap-x-16 items-center">
           <div class="flex flex-col gap-y-4 max-w-md">
             <p class="text-grayish text-lg font-semibold">List All Customers</p>
-            <p class="text-subtext max-w-md">
+            <p class="text-subtext">
               Dialog for managing customer systems, including enabling features, activating or deactivating modules, modifying licenses, and viewing customer data.
             </p>
           </div>
 
-          <div class="flex items-center justify-center">
-            <img src="systems-page.png" class="rounded-card w-[580px] h-[375px] object-contain shadow-card" />
+          <div class="flex justify-center relative w-[800px] h-[517px]">
+            <div class="absolute w-[800px] h-full left-0">
+              <img src="systems-page.png" class="rounded-card object-fill shadow-card" />
+            </div>
           </div>
         </div>
 
         <div class="flex gap-x-16 items-center">
-          <div class="flex items-center justify-center">
-            <img src="system-dialog.png" class="rounded-card w-[580px] h-[375px] object-contain shadow-card" />
+          <div class="flex justify-center relative w-[800px] h-[517px]">
+            <div class="absolute w-[800px] h-full right-0">
+              <img src="system-dialog.png" class="rounded-card object-fill shadow-card" />
+            </div>
           </div>
 
           <div class="flex flex-col gap-y-4 max-w-md">
             <p class="text-grayish text-lg font-semibold">Manage Customer Systems</p>
-            <p class="text-subtext max-w-md">
+            <p class="text-subtext">
               Dialog for managing customer systems, including enabling features, activating or deactivating modules, modifying licenses, and viewing customer data.
             </p>
           </div>
@@ -103,11 +111,13 @@
   <div class="flex flex-col gap-y-16">
     <div class="flex justify-center relative">
       <p class="font-playfair italic font-bold text-[70px] md:text-[150px] opacity-10 text-gradient leading-none">
-        Difficulties
+        Setbacks
       </p>
       <p class="text-lg md:text-2xl text-nowrap text-subtext absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         Obstacles and Insights
       </p>
     </div>
+
+    aaaaa
   </div>
 </div>

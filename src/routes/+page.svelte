@@ -5,10 +5,12 @@
   import BackgroundSection from "$lib/components/sections/background-section.svelte";
 </script>
 
-<HeroSection />
+<div class="overflow-x-hidden relative">
+  <HeroSection />
 
-<div class="flex flex-col gap-y-[304px]">
-  <TimelineSection />
-  <ProjectsSection />
-  <BackgroundSection />
+  <div class="flex flex-col gap-y-[304px]">
+    <TimelineSection />
+    <ProjectsSection />
+    <BackgroundSection />
+  </div>
 </div>

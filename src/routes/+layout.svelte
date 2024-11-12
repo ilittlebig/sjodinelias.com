@@ -8,9 +8,14 @@
 </script>
 
 <Cursor />
-
-<div class="max-w-6xl ml-auto mr-auto relative overflow-x-hidden">
+<div class="flex justify-center">
   <Navbar />
+</div>
+
+<div class="max-w-6xl ml-auto mr-auto">
   {@render children()}
 </div>
-<CtaSection />
+
+<div class="overflow-x-hidden">
+  <CtaSection />
+</div>

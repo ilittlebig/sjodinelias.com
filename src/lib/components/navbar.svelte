@@ -3,7 +3,7 @@
   import HoverTextAnimation from "$lib/components/hover-text-animation.svelte";
 </script>
 
-<div class="flex justify-between items-center p-8 absolute w-full">
+<div class="flex justify-between items-center p-8 absolute top-0 w-full max-w-6xl">
   <a href="/" class="expand-on-hover">
     <img src="sjodinelias.svg" class="h-8 select-none" />
   </a>

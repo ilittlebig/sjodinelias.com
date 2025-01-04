@@ -86,12 +86,12 @@
 {#snippet connector(index: number)}
   <div class="relative hidden md:flex flex-col items-center">
     {#if index === 0}
-      <div class="h-5 w-5 bg-blue rounded-full" />
+			<div class="h-5 w-5 bg-blue rounded-full"></div>
     {:else}
-      <div class="h-5 w-5 bg-dark-border rounded-full z-20" />
+			<div class="h-5 w-5 bg-dark-border rounded-full z-20"></div>
     {/if}
     {#if index < jobs.length - 1}
-      <div class="absolute top-full h-[264px] w-0.5 bg-dark-border" />
+			<div class="absolute top-full h-[264px] w-0.5 bg-dark-border"></div>
     {/if}
   </div>
 {/snippet}
@@ -116,7 +116,7 @@
   </div>
 
   <div class="flex flex-col gap-y-24 md:gap-y-36 items-center max-w-4xl relative">
-    <div class="timeline-gradient-overlay absolute top-[60px] left-1/2 transform -translate-x-1/2 w-0.5 h-[calc(100%-115px)] bg-gradient-to-b from-blue to-transparent scale-y-0 z-10 hidden md:block" />
+		<div class="timeline-gradient-overlay absolute top-[60px] left-1/2 transform -translate-x-1/2 w-0.5 h-[calc(100%-115px)] bg-gradient-to-b from-blue to-transparent scale-y-0 z-10 hidden md:block"></div>
 
     {#each jobs as job, index}
       <div class="flex items-center gap-x-6 md:justify-between px-6 md:px-0">

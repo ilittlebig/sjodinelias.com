@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { gsap } from "gsap";
-  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
   import Chip from "$lib/components/chip.svelte";
 
   gsap.registerPlugin(ScrollTrigger);
@@ -38,7 +38,11 @@
   </div>
 
   <div class="flex flex-col items-center md:items-start md:flex-row gap-y-8 gap-x-16 max-w-4xl px-3 md:px-0">
-    <img src="profile-picture.jpeg" class="bg-white rounded-card w-full w-[313px] h-[375px] object-cover" />
+		<img
+			src="profile-picture.jpeg"
+			class="bg-white rounded-card w-full w-[313px] h-[375px] object-cover"
+			alt="Profile"
+		/>
 
     <div class="flex flex-col gap-y-6">
       <p class="text-grayish">

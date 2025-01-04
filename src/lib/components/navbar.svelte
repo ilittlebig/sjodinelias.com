@@ -3,9 +3,9 @@
   import HoverTextAnimation from "$lib/components/hover-text-animation.svelte";
 </script>
 
-<div class="flex justify-between items-center p-8 absolute top-0 w-full max-w-6xl">
+<div class="flex justify-between items-center p-8 absolute top-0 w-full max-w-6xl z-10">
   <a href="/" class="expand-on-hover">
-    <img src="sjodinelias.svg" class="h-8 select-none" />
+    <img src="sjodinelias.svg" class="h-8 select-none" alt="Logo" />
   </a>
 
   <div class="flex gap-x-6 md:gap-x-12">

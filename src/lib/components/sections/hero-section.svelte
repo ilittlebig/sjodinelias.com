@@ -2,7 +2,6 @@
   import { onMount } from "svelte";
   import { gsap } from "gsap";
 
-  let currentImageIndex = 0;
   let images = [
     "/high-performance.svg",
     "/future-proof.svg",
@@ -19,7 +18,7 @@
       ease: "power2.out",
     });
 
-    images.forEach((image, index) => {
+    images.forEach((_, index) => {
       timeline.fromTo(
         `#image-${index}`,
         {
@@ -48,7 +47,7 @@
   });
 </script>
 
-<div class="flex items-center justify-center h-screen px-3 md:px-0">
+<div class="flex items-center justify-center h-screen px-3 md:px-0 pointer-events-none">
   <div class="flex flex-col gap-y-12 items-center animate">
     <p class="text-subtext text-lg md:text-2xl text-center">
       Hello! I’m <span class="text-grayish italic">Elias Sjödin</span>,
@@ -68,11 +67,12 @@
           id={"image-" + index}
           width={767}
           class="absolute top-1/2 transform -translate-y-1/2 opacity-0"
+					alt="Job Logo"
         />
       {/each}
     </div>
 
-    <div class="w-full h-px bg-gradient-to-r from-transparent via-blue to-transparent" />
+		<div class="w-full h-px bg-gradient-to-r from-transparent via-blue to-transparent"></div>
 
     <div class="flex gap-x-3 md:gap-x-4 items-center">
       <p class="text-subtext text-xs md:text-xl">Currently</p>

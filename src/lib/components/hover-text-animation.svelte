@@ -5,7 +5,7 @@
 
   interface Props {
     label: string;
-    size: "sm" | "md" | "lg";
+    size?: "sm" | "md" | "lg";
   }
 
   let {
@@ -13,7 +13,7 @@
     size = "md",
   }: Props = $props();
 
-  let container;
+  let container: HTMLDivElement;
 
   const sizeClasses: Record<string, string> = {
     "md": "text-sm md:text-base",

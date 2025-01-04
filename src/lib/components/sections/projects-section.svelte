@@ -33,6 +33,22 @@
       href: "/",
     },
     {
+      title: "Jaafar",
+      description: "Automate product monitoring and purchases with ease. Buy instantly or get notified with a cart link!",
+      type: "Side Project",
+      tags: ["TypeScript", "Svelte", "Tauri", "AWS Cognito"],
+      image: "jaafar.png",
+      href: "/",
+    },
+    {
+      title: "Discord AI Bot",
+      description: "Discord bot leveraging OpenAI for intelligent, responsive, and customizable AI-powered chat interactions.",
+      type: "Side Project",
+      tags: ["Python", "OpenAI", "Bot"],
+      image: "discord-bot.png",
+      href: "/",
+    },
+    {
       title: "Eliasmattor",
       description: "Fullstack e-commerce website for selling rugs.",
       type: "Side Project",

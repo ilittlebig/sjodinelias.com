@@ -22,7 +22,7 @@
 		<p class="text-subtext">{description}</p>
 	</div>
 	<div class="flex justify-center relative w-[800px] h-[517px]">
-		<div class={cn("absolute w-[800px] h-full", isLeft ? "right-0" : "left-0")}>
+		<div class={cn("flex items-center absolute w-[800px] h-full", isLeft ? "right-0" : "left-0")}>
 			<img src={image} class="rounded-card object-fill shadow-card" alt="Feature" />
 		</div>
 	</div>

@@ -44,9 +44,9 @@
       title: "Discord AI Bot",
       description: "Discord bot leveraging OpenAI for intelligent, responsive, and customizable AI-powered chat interactions.",
       type: "Side Project",
-      tags: ["Python", "OpenAI"],
+      tags: ["Python", "OpenAI API"],
       image: "discord-bot.png",
-      href: "/",
+      href: "/discord-bot",
     },
     {
       title: "Eliasmattor",

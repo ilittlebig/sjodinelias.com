@@ -2,8 +2,7 @@
   import { FeatureSection } from "$lib/components/feature-section";
 	import { Reflections } from "$lib/components/reflections";
 	import { Project } from "$lib/components/project";
-	import SourceCode from "$lib/components/source-code.svelte";
-	import ProjectLink from "$lib/components/project-link.svelte";
+	import { Metadata } from "$lib/components/metadata";
 	import Alert from "$lib/components/alert.svelte";
 </script>
 
@@ -99,8 +98,8 @@
 		</Reflections.Children>
 	</Reflections.Root>
 
-	<div class="flex gap-x-4">
-		<SourceCode />
-		<ProjectLink />
-	</div>
+	<Metadata.Root>
+		<Metadata.SourceCode link="https://github.com/ilittlebig/jaafar/" />
+		<Metadata.ProjectLink link="https://jaafar.app/" />
+	</Metadata.Root>
 </div>

@@ -2,6 +2,7 @@
   import { FeatureSection } from "$lib/components/feature-section";
 	import { Reflections } from "$lib/components/reflections";
 	import { Project } from "$lib/components/project";
+	import { Metadata } from "$lib/components/metadata";
 </script>
 
 <div class="flex flex-col gap-y-32 mt-24 p-8">
@@ -82,4 +83,9 @@
 			/>
 		</Reflections.Children>
 	</Reflections.Root>
+
+	<Metadata.Root>
+		<Metadata.SourceCode />
+		<Metadata.ProjectLink />
+	</Metadata.Root>
 </div>

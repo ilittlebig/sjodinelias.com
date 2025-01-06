@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Reflections } from "$lib/components/reflections";
 	import { Project } from "$lib/components/project";
+	import { Metadata } from "$lib/components/metadata";
 </script>
 
 <div class="flex flex-col gap-y-32 mt-24 p-8">
@@ -12,10 +13,49 @@
 				The Easy Auth project is an AWS Cognito authentication library that utilizes the AWS SDK with SRP-based login, aiming to simplify and secure user authentication processes.
 			</Project.Description>
 			<Project.Metadata>
+				<Project.Role>Maintainer</Project.Role>
 				<Project.Techstack list={["TypeScript", "Vite", "Vitest"]} />
 			</Project.Metadata>
 		</Project.Content>
 	</Project.Root>
+
+	<Reflections.Root>
+		<Reflections.Title background="Features" foreground="Library Capabilities" />
+		<Reflections.Children>
+			<Reflections.Child
+				title="Secure Authentication"
+				description="Utilizes the SRP (Secure Remote Password) protocol to ensure secure user logins and protection against unauthorized access."
+			/>
+			<Reflections.Child
+				title="AWS SDK Integration"
+				description="Seamlessly integrates with AWS Cognito for streamlined user authentication and management workflows."
+			/>
+			<Reflections.Child
+				title="User Management"
+				description="Provides functionality for user registration, sign-ins, password resets, and managing user attributes effortlessly."
+			/>
+			<Reflections.Child
+				title="Multi-Factor Authentication (MFA)"
+				description="Supports managing and configuring TOTP and SMS-based MFA preferences for added security."
+			/>
+			<Reflections.Child
+				title="Session Management"
+				description="Includes features for retrieving current sessions, signing users out globally or locally, and managing remembered devices."
+			/>
+			<Reflections.Child
+				title="Extensive API Support"
+				description="Offers APIs for user sign-up, confirmation, session retrieval, MFA verification, and user deletion to cover a wide range of use cases."
+			/>
+			<Reflections.Child
+				title="Storage Customization"
+				description="Allows changing storage providers for managing tokens, including localStorage, in-memory storage, or cookies for flexibility."
+			/>
+			<Reflections.Child
+				title="Comprehensive Unit Tests"
+				description="Fully tested with robust unit tests to ensure reliable performance across various authentication scenarios."
+			/>
+		</Reflections.Children>
+	</Reflections.Root>
 
 	<Reflections.Root>
 		<Reflections.Title background="Setbacks" foreground="Obstacles Faced" />
@@ -52,4 +92,9 @@
 			/>
 		</Reflections.Children>
 	</Reflections.Root>
+
+	<Metadata.Root>
+		<Metadata.SourceCode link="https://github.com/ilittlebig/easy-auth/" />
+		<Metadata.ProjectLink />
+	</Metadata.Root>
 </div>

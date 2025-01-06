@@ -19,7 +19,7 @@
    variant === "outline" ? "border border-dark-border" : (color || "bg-blue")
 )}>
   {#if variant === "filled"}
-    <div class="w-2 h-2 shrink-0 rounded-full bg-grayish" />
+		<div class="w-2 h-2 shrink-0 rounded-full bg-grayish"></div>
   {/if}
   <p class="text-nowrap text-grayish text-xs md:text-sm">{label}</p>
 </div>

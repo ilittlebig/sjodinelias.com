@@ -9,7 +9,7 @@
   </a>
 
   <div class="flex gap-x-6 md:gap-x-12">
-    <a href="/" class="flex items-center gap-x-2 expand-on-hover">
+    <a href="/resume.pdf" class="flex items-center gap-x-2 expand-on-hover">
       <HoverTextAnimation label="Resume" />
       <SquareArrowOutUpRight class="text-grayish w-6 h-6" />
     </a>

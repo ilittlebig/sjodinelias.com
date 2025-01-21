@@ -86,7 +86,7 @@
 			type: "Side Project",
 			tags: ["Lua", "Roblox Studio"],
 			image: "robbery-story.png",
-			href: "/",
+			href: "/robbery",
 		},
 	];
 

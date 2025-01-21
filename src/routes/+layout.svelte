@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Cursor from "$lib/components/cursor.svelte";
-  import Navbar from "$lib/components/navbar.svelte";
-  import CtaSection from "$lib/components/sections/cta-section.svelte";
+	import Cursor from "$lib/components/cursor.svelte";
+	import Navbar from "$lib/components/navbar.svelte";
+	import CtaSection from "$lib/components/sections/cta-section.svelte";
 	import "../app.css";
 
 	let { children } = $props();
@@ -9,13 +9,13 @@
 
 <Cursor />
 <div class="flex justify-center">
-  <Navbar />
+	<Navbar />
 </div>
 
 <div class="max-w-6xl ml-auto mr-auto">
-  {@render children()}
+	{@render children()}
 </div>
 
 <div class="overflow-x-hidden">
-  <CtaSection />
+	<CtaSection />
 </div>

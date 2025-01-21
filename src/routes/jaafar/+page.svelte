@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { FeatureSection } from "$lib/components/feature-section";
+	import { FeatureSection } from "$lib/components/feature-section";
 	import { Reflections } from "$lib/components/reflections";
 	import { Project } from "$lib/components/project";
 	import { Metadata } from "$lib/components/metadata";

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Chip from "$lib/components/chip.svelte";
+	import Chip from "$lib/components/chip.svelte";
 
 	interface Props {
 		list: string[];

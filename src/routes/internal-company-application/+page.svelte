@@ -1,8 +1,9 @@
 <script lang="ts">
-  import { FeatureSection } from "$lib/components/feature-section";
+	import { FeatureSection } from "$lib/components/feature-section";
 	import { Reflections } from "$lib/components/reflections";
 	import { Project } from "$lib/components/project";
 	import { Metadata } from "$lib/components/metadata";
+	import Alert from "$lib/components/alert.svelte";
 </script>
 
 <div class="flex flex-col gap-y-32 mt-24 p-8">
@@ -19,6 +20,10 @@
 			</Project.Metadata>
 		</Project.Content>
 	</Project.Root>
+
+	<Alert variant="note">
+		These images are mockups made in Figma, and does not look exactly like the real product.
+	</Alert>
 
 	<FeatureSection.Root background="Features" foreground="Most Frequently Used">
 		<FeatureSection.Image

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Github } from "lucide-svelte";
-  import HoverTextAnimation from "$lib/components/hover-text-animation.svelte";
+	import HoverTextAnimation from "$lib/components/hover-text-animation.svelte";
 
 	interface Props {
 		link?: string;

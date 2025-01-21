@@ -8,7 +8,7 @@
 </script>
 
 <Cursor />
-<div class="flex justify-center">
+<div class="flex justify-center fixed top-0 z-10 w-full">
 	<Navbar />
 </div>
 

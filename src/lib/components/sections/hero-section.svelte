@@ -9,7 +9,6 @@
 
 	onMount(() => {
 		const timeline = gsap.timeline({ repeat: -1 });
-
 		gsap.from(".animate", {
 			opacity: 0,
 			y: 40,
@@ -18,32 +17,34 @@
 			ease: "power2.out",
 		});
 
-		images.forEach((_, index) => {
-			timeline.fromTo(
-				`#image-${index}`,
-				{
-					y: 40,
-					opacity: 0,
-				},
-				{
-					y: 0,
-					opacity: 1,
-					duration: 0.5,
-					ease: "power2.out",
-				}
-			)
-			.to(
-				`#image-${index}`,
-				{
-					delay: 2,
-					y: -30,
-					opacity: 0,
-					duration: 0.5,
-					ease: "power2.in",
-				},
-				"+=0.5"
-			);
-		});
+		setTimeout(() => {
+			images.forEach((_, index) => {
+				timeline.fromTo(
+					`#image-${index}`,
+					{
+						y: 40,
+						opacity: 0,
+					},
+					{
+						y: 0,
+						opacity: 1,
+						duration: 0.5,
+						ease: "power2.out",
+					}
+				)
+				.to(
+					`#image-${index}`,
+					{
+						delay: 2,
+						y: -30,
+						opacity: 0,
+						duration: 0.5,
+						ease: "power2.in",
+					},
+					"+=0.5"
+				);
+			});
+		}, 1000);
 	});
 </script>
 
@@ -66,7 +67,9 @@
 					src={image}
 					id={"image-" + index}
 					width={767}
-					class="absolute top-1/2 transform -translate-y-1/2 opacity-0"
+					class="absolute top-1/2 transform -translate-y-1/2"
+					class:opacity-100={index === 0}
+					class:opacity-0={index !== 0}
 					alt="Job Logo"
 				/>
 			{/each}

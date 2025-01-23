@@ -4,8 +4,9 @@
 
 	interface Props {
 		link?: string;
+		label?: string;
 	}
-	let { link }: Props = $props();
+	let { link, label }: Props = $props();
 </script>
 
 <div class="flex flex-col gap-y-1 items-center mx-auto w-full">
@@ -15,7 +16,7 @@
 	</div>
 	{#if link}
 		<a href={link} class="flex items-center gap-x-2 expand-on-hover">
-			<HoverTextAnimation label={link} />
+			<HoverTextAnimation label={label || link} />
 		</a>
 	{:else}
 		<p class="text-grayish">Not Available</p>

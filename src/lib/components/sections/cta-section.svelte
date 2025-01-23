@@ -3,7 +3,7 @@
 	import HoverTextAnimation from "$lib/components/hover-text-animation.svelte";
 </script>
 
-<div class="bg-[#141414] py-32 mt-64 rounded-t-[50px] shadow-[0px_0px_74px_0px_rgba(62,65,255,1)]">
+<div class="bg-[#141414] md:px-16 py-32 mt-64 rounded-t-[50px] shadow-[0px_0px_74px_0px_rgba(62,65,255,1)]">
 	<div class="flex flex-col gap-y-32 items-center max-w-6xl ml-auto mr-auto">
 		<div class="flex flex-col gap-y-8 items-center relative">
 			<p class="font-playfair italic text-4xl md:text-6xl text-grayish">
@@ -14,7 +14,7 @@
 			</p>
 		</div>
 
-		<div class="flex flex-col md:flex-row gap-y-16 gap-x-32">
+		<div class="flex flex-col sm:items-center sm:justify-center sm:flex-wrap md:flex-row gap-y-16 gap-x-32">
 			<div class="flex flex-col items-center">
 				<p class="text-subtext">Email</p>
 				<p class="text-3xl text-grayish">elias@jamee.se</p>

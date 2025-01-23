@@ -6,7 +6,7 @@
 	import Alert from "$lib/components/alert.svelte";
 </script>
 
-<div class="flex flex-col gap-y-32 mt-24 p-8">
+<div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Internal Company Application</Project.Name>
 		<Project.Image src="internal-application.png" />

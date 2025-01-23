@@ -4,7 +4,7 @@
 	import { Metadata } from "$lib/components/metadata";
 </script>
 
-<div class="flex flex-col gap-y-32 mt-24 p-8">
+<div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Discord AI Bot</Project.Name>
 		<Project.Image src="discord-bot.png" />
@@ -94,7 +94,7 @@
 	</Reflections.Root>
 
 	<Metadata.Root>
-		<Metadata.SourceCode link="https://github.com/ilittlebig/discord-self-bot/" />
+		<Metadata.SourceCode link="https://github.com/ilittlebig/discord-self-bot/" label="Github Page" />
 		<Metadata.ProjectLink />
 	</Metadata.Root>
 </div>

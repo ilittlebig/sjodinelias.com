@@ -4,7 +4,7 @@
 	import { Metadata } from "$lib/components/metadata";
 </script>
 
-<div class="flex flex-col gap-y-32 mt-24 p-8">
+<div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Robbery (Story)</Project.Name>
 		<Project.Image src="robbery-story.png" />
@@ -87,6 +87,6 @@
 
 	<Metadata.Root>
 		<Metadata.SourceCode />
-		<Metadata.ProjectLink link="https://www.roblox.com/games/5548533908/Robbery-Story" />
+		<Metadata.ProjectLink link="https://www.roblox.com/games/5548533908/Robbery-Story" label="Roblox Page" />
 	</Metadata.Root>
 </div>

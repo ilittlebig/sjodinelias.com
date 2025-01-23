@@ -4,7 +4,7 @@
 	import { Metadata } from "$lib/components/metadata";
 </script>
 
-<div class="flex flex-col gap-y-32 mt-24 p-8">
+<div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Personal Portfolio</Project.Name>
 		<Project.Image src="personal-portfolio.png" />
@@ -78,7 +78,7 @@
 	</Reflections.Root>
 
 	<Metadata.Root>
-		<Metadata.SourceCode link="https://github.com/ilittlebig/sjodinelias.com" />
+		<Metadata.SourceCode link="https://github.com/ilittlebig/sjodinelias.com" label="Github Page" />
 		<Metadata.ProjectLink link="https://sjodinelias.com" />
 	</Metadata.Root>
 </div>

@@ -6,7 +6,7 @@
 	import Alert from "$lib/components/alert.svelte";
 </script>
 
-<div class="flex flex-col gap-y-32 mt-24 p-8">
+<div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Jaafar</Project.Name>
 		<Project.Image src="jaafar.png" />
@@ -99,7 +99,7 @@
 	</Reflections.Root>
 
 	<Metadata.Root>
-		<Metadata.SourceCode link="https://github.com/ilittlebig/jaafar/" />
+		<Metadata.SourceCode link="https://github.com/ilittlebig/jaafar/" label="Github Page" />
 		<Metadata.ProjectLink link="https://jaafar.app/" />
 	</Metadata.Root>
 </div>

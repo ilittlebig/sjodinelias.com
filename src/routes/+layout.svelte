@@ -12,8 +12,10 @@
 	<Navbar />
 </div>
 
-<div class="max-w-6xl ml-auto mr-auto">
-	{@render children()}
+<div class="flex flex-col items-center w-full overflow-x-hidden">
+	<div class="max-w-6xl">
+		{@render children()}
+	</div>
 </div>
 
 <div class="overflow-x-hidden">

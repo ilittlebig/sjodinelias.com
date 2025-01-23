@@ -2,6 +2,6 @@
 	let { children } = $props();
 </script>
 
-<div class="flex justify-between gap-x-16">
+<div class="flex md:flex-row flex-col justify-between gap-x-16 gap-y-8">
 	{@render children()}
 </div>

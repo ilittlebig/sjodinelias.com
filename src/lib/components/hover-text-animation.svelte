@@ -55,10 +55,10 @@
 </script>
 
 <div bind:this={container} class="relative overflow-hidden inline-block">
-	<p class={cn("text-grayish text relative", sizeClasses[size])}>
+	<p class={cn("text-nowrap text-grayish text relative", sizeClasses[size])}>
 		{label}
 	</p>
-	<p class={cn("text-grayish text absolute left-0 right-0 top-0", sizeClasses[size])}>
+	<p class={cn("text-nowrap text-grayish text absolute left-0 right-0 top-0", sizeClasses[size])}>
 		{label}
 	</p>
 </div>

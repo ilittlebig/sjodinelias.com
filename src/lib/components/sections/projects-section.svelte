@@ -33,6 +33,14 @@
 			href: "/jaafar",
 		},
 		{
+			title: "Self Blog",
+			description: "A custom CMS for blogging with SvelteKit, AWS S3, Cognito and DynamoDB.",
+			type: "Side Project",
+			tags: ["Svelte", "AWS S3", "Cognito", "DynamoDB"],
+			image: "self-blog.png",
+			href: "/self-blog",
+		},
+		{
 			title: "Easy Auth",
 			description: "AWS Cognito authentication library using AWS SDK with SRP-based login.",
 			type: "Side Project",
@@ -49,7 +57,7 @@
 			href: "/discord-bot",
 		},
 		{
-			title: "Eliasmattor",
+			title: "Elias Mattor",
 			description: "Fullstack e-commerce website for selling rugs.",
 			type: "Side Project",
 			tags: ["JavaScript", "Next.js", "Vercel", "GSAP"],

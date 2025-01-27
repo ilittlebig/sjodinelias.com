@@ -4,6 +4,27 @@
 	import { Metadata } from "$lib/components/metadata";
 </script>
 
+<svelte:head>
+	<title>Little Lang - A Simple Programming Language</title>
+	<meta name="description" content="Little Lang is a custom programming language with a compiler designed for learning and experimenting with compiler design. It supports essential constructs like control flow, functions, and arrays." />
+
+	<meta property="og:title" content="Little Lang - A Simple Programming Language" />
+	<meta property="og:description" content="Discover Little Lang, a programming language built from scratch, offering features like control flow, mathematical operations, and function support for learning compiler design." />
+	<meta property="og:url" content="https://github.com/ilittlebig/little-lang/" />
+	<meta property="og:image" content="/little-lang.png" />
+	<meta property="og:image:alt" content="Little Lang Overview" />
+	<meta property="og:type" content="website" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Little Lang - A Simple Programming Language" />
+	<meta name="twitter:description" content="Explore Little Lang, a simple and powerful programming language created to learn and experiment with compiler design concepts." />
+	<meta name="twitter:image" content="/little-lang.png" />
+	<meta name="twitter:image:alt" content="Little Lang Overview" />
+
+	<meta name="author" content="Elias Sjödin" />
+	<link rel="canonical" href="https://github.com/ilittlebig/little-lang/" />
+</svelte:head>
+
 <div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Little Lang</Project.Name>

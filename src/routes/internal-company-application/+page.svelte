@@ -6,6 +6,25 @@
 	import Alert from "$lib/components/alert.svelte";
 </script>
 
+<svelte:head>
+	<title>Internal Company Application - Streamlining Operations</title>
+	<meta name="description" content="An internal application designed to manage customer systems, support daily developer workflows, and automate code deployment. Built with Svelte, Tauri, and AWS for efficiency and scalability." />
+
+	<meta property="og:title" content="Internal Company Application - Streamlining Operations" />
+	<meta property="og:description" content="Explore an internal company tool that manages customer systems, automates CI/CD workflows, and enables secure AWS RDS interactions to enhance developer productivity and operational efficiency." />
+	<meta property="og:image" content="/internal-application.png" />
+	<meta property="og:image:alt" content="Internal Company Application Overview" />
+	<meta property="og:type" content="website" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Internal Company Application - Streamlining Operations" />
+	<meta name="twitter:description" content="A comprehensive tool for managing customer systems, automating deployments, and enabling secure interactions with AWS infrastructure. Designed for developers and DevOps teams." />
+	<meta name="twitter:image" content="/internal-application.png" />
+	<meta name="twitter:image:alt" content="Internal Company Application Overview" />
+
+	<meta name="author" content="Elias Sjödin" />
+</svelte:head>
+
 <div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Internal Company Application</Project.Name>

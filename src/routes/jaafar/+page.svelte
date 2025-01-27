@@ -6,6 +6,27 @@
 	import Alert from "$lib/components/alert.svelte";
 </script>
 
+<svelte:head>
+	<title>Jaafar - Automating Account Creation and Proxy Management</title>
+	<meta name="description" content="Jaafar is a Tauri-based desktop application for automating account creation, proxy management, and stealth operations, featuring tools like captcha solving and real-time dashboards." />
+
+	<meta property="og:title" content="Jaafar - Automating Account Creation and Proxy Management" />
+	<meta property="og:description" content="Discover Jaafar, a powerful Tauri-based app with tools for bulk account handling, proxy rotation, and real-time dashboards, designed for advanced automation." />
+	<meta property="og:url" content="https://jaafar.app/" />
+	<meta property="og:image" content="/jaafar.png" />
+	<meta property="og:image:alt" content="Jaafar Application Overview" />
+	<meta property="og:type" content="website" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Jaafar - Automating Account Creation and Proxy Management" />
+	<meta name="twitter:description" content="Explore Jaafar, a cutting-edge Tauri app for automating account creation, proxy management, and stealth operations, featuring advanced tools like captcha solving and detailed dashboards." />
+	<meta name="twitter:image" content="/jaafar.png" />
+	<meta name="twitter:image:alt" content="Jaafar Application Overview" />
+
+	<meta name="author" content="Elias Sjödin" />
+	<link rel="canonical" href="https://jaafar.app/" />
+</svelte:head>
+
 <div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Jaafar</Project.Name>

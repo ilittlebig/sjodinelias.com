@@ -4,6 +4,27 @@
 	import { Metadata } from "$lib/components/metadata";
 </script>
 
+<svelte:head>
+	<title>Personal Portfolio - Showcasing Skills and Projects</title>
+	<meta name="description" content="Explore my Personal Portfolio, a platform built with SvelteKit to showcase my skills, projects, and professional journey in an interactive and visually engaging way." />
+
+	<meta property="og:title" content="Personal Portfolio - Showcasing Skills and Projects" />
+	<meta property="og:description" content="Discover my Personal Portfolio, featuring interactive project showcases, responsive design, and dynamic animations powered by SvelteKit and GSAP." />
+	<meta property="og:url" content="https://sjodinelias.com" />
+	<meta property="og:image" content="/personal-portfolio.png" />
+	<meta property="og:image:alt" content="Personal Portfolio Overview" />
+	<meta property="og:type" content="website" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Personal Portfolio - Showcasing Skills and Projects" />
+	<meta name="twitter:description" content="A visually engaging and responsive portfolio showcasing my skills and projects, built with SvelteKit, Tailwind CSS, and GSAP." />
+	<meta name="twitter:image" content="/personal-portfolio.png" />
+	<meta name="twitter:image:alt" content="Personal Portfolio Overview" />
+
+	<meta name="author" content="Elias Sjödin" />
+	<link rel="canonical" href="https://sjodinelias.com" />
+</svelte:head>
+
 <div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Personal Portfolio</Project.Name>

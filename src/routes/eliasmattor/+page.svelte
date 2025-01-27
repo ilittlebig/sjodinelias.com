@@ -6,6 +6,26 @@
 	import Alert from "$lib/components/alert.svelte";
 </script>
 
+<svelte:head>
+	<title>Elias Mattor - Hand-Tufted Rugs E-Commerce Platform</title>
+	<meta name="description" content="Elias Mattor is an ongoing full-stack e-commerce project designed to showcase and sell unique, hand-tufted rugs. Users can customize their rugs or purchase preset designs." />
+
+	<meta property="og:title" content="Elias Mattor - Hand-Tufted Rugs E-Commerce Platform" />
+	<meta property="og:description" content="Explore Elias Mattor, an e-commerce platform showcasing unique hand-tufted rugs. Users can customize designs or purchase vibrant, preset rug styles." />
+	<meta property="og:image" content="/eliasmattor-1.png" />
+	<meta property="og:image:alt" content="Elias Mattor Hero Section" />
+	<meta property="og:type" content="website" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Elias Mattor - Hand-Tufted Rugs E-Commerce Platform" />
+	<meta name="twitter:description" content="Discover Elias Mattor, a platform featuring customizable and preset hand-tufted rugs, blending creativity with craftsmanship." />
+	<meta name="twitter:image" content="/eliasmattor-1.png" />
+	<meta name="twitter:image:alt" content="Elias Mattor Hero Section" />
+
+	<meta name="author" content="Elias Sjödin" />
+	<link rel="canonical" href="https://github.com/ilittlebig/eliasmattor" />
+</svelte:head>
+
 <div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Elias Mattor</Project.Name>

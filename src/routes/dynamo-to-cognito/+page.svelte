@@ -4,6 +4,26 @@
 	import { Metadata } from "$lib/components/metadata";
 </script>
 
+<svelte:head>
+	<title>Dynamo To Cognito - User Migration Simplified</title>
+	<meta name="description" content="Dynamo To Cognito is a project for seamless migration of user accounts from AWS DynamoDB to AWS Cognito. It ensures secure password handling, AWS service integration, and user-friendly authentication." />
+
+	<meta property="og:title" content="Dynamo To Cognito - User Migration Simplified" />
+	<meta property="og:description" content="Explore Dynamo To Cognito, a project designed to migrate user accounts from AWS DynamoDB to AWS Cognito, leveraging secure password handling and AWS Lambda integration." />
+	<meta property="og:image" content="/dynamo-to-cognito.png" />
+	<meta property="og:image:alt" content="Dynamo To Cognito Project Overview" />
+	<meta property="og:type" content="website" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Dynamo To Cognito - User Migration Simplified" />
+	<meta name="twitter:description" content="Seamlessly migrate user accounts from DynamoDB to Cognito with Dynamo To Cognito. Leverages bcrypt, AWS Lambda, and AWS Cognito for a secure, scalable solution." />
+	<meta name="twitter:image" content="/dynamo-to-cognito.png" />
+	<meta name="twitter:image:alt" content="Dynamo To Cognito Project Overview" />
+
+	<meta name="author" content="Elias Sjödin" />
+	<link rel="canonical" href="https://github.com/ilittlebig/dynamo-to-cognito/" />
+</svelte:head>
+
 <div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Dynamo To Cognito</Project.Name>

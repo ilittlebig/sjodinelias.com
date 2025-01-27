@@ -4,6 +4,26 @@
 	import { Metadata } from "$lib/components/metadata";
 </script>
 
+<svelte:head>
+	<title>Discord AI Bot - Dynamic AI-Powered Conversations</title>
+	<meta name="description" content="The Discord AI Bot is a self-bot powered by OpenAI's GPT models, offering customizable personalities, context-aware interactions, and dynamic, human-like responses tailored for Discord servers." />
+
+	<meta property="og:title" content="Discord AI Bot - Dynamic AI-Powered Conversations" />
+	<meta property="og:description" content="Explore the Discord AI Bot, a self-bot powered by OpenAI's GPT models. It enables context-aware, customizable, and engaging interactions for Discord communities." />
+	<meta property="og:image" content="/discord-bot.png" />
+	<meta property="og:image:alt" content="Discord AI Bot Overview" />
+	<meta property="og:type" content="website" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Discord AI Bot - Dynamic AI-Powered Conversations" />
+	<meta name="twitter:description" content="Discover the Discord AI Bot, featuring OpenAI-powered responses, server-specific prompts, and modular configurations for engaging Discord interactions." />
+	<meta name="twitter:image" content="/discord-bot.png" />
+	<meta name="twitter:image:alt" content="Discord AI Bot Overview" />
+
+	<meta name="author" content="Elias Sjödin" />
+	<link rel="canonical" href="https://github.com/ilittlebig/discord-self-bot/" />
+</svelte:head>
+
 <div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Discord AI Bot</Project.Name>

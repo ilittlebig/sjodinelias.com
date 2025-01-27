@@ -4,6 +4,26 @@
 	import { Metadata } from "$lib/components/metadata";
 </script>
 
+<svelte:head>
+	<title>Easy Auth - Simplified AWS Cognito Authentication</title>
+	<meta name="description" content="Easy Auth is an AWS Cognito authentication library using the AWS SDK with SRP-based login. It simplifies and secures user authentication processes with robust features." />
+
+	<meta property="og:title" content="Easy Auth - Simplified AWS Cognito Authentication" />
+	<meta property="og:description" content="Explore Easy Auth, a library designed to streamline AWS Cognito authentication with SRP-based login, user management, MFA, and secure session handling." />
+	<meta property="og:image" content="/easy-auth.png" />
+	<meta property="og:image:alt" content="Easy Auth Library Overview" />
+	<meta property="og:type" content="website" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Easy Auth - Simplified AWS Cognito Authentication" />
+	<meta name="twitter:description" content="Secure and simplify user authentication with Easy Auth. Features include SRP-based login, MFA support, session management, and AWS Cognito integration." />
+	<meta name="twitter:image" content="/easy-auth.png" />
+	<meta name="twitter:image:alt" content="Easy Auth Library Overview" />
+
+	<meta name="author" content="Elias Sjödin" />
+	<link rel="canonical" href="https://github.com/ilittlebig/easy-auth/" />
+</svelte:head>
+
 <div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Easy Auth</Project.Name>

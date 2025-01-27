@@ -4,6 +4,27 @@
 	import { Metadata } from "$lib/components/metadata";
 </script>
 
+<svelte:head>
+	<title>Robbery (Story) - A Roblox Game Success</title>
+	<meta name="description" content="Discover Robbery (Story), a Roblox game with over 12 million plays, featuring story-driven gameplay, microtransactions, and lessons learned about game development and scalability." />
+
+	<meta property="og:title" content="Robbery (Story) - A Roblox Game Success" />
+	<meta property="og:description" content="Explore Robbery (Story), a popular Roblox game that taught valuable lessons about building and maintaining a game for a massive player base." />
+	<meta property="og:url" content="https://www.roblox.com/games/5548533908/Robbery-Story" />
+	<meta property="og:image" content="/robbery-story.png" />
+	<meta property="og:image:alt" content="Robbery (Story) Roblox Game Overview" />
+	<meta property="og:type" content="website" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Robbery (Story) - A Roblox Game Success" />
+	<meta name="twitter:description" content="Learn about Robbery (Story), a Roblox game that combined immersive gameplay with monetization, reaching millions of players." />
+	<meta name="twitter:image" content="/robbery-story.png" />
+	<meta name="twitter:image:alt" content="Robbery (Story) Roblox Game Overview" />
+
+	<meta name="author" content="Elias Sjödin" />
+	<link rel="canonical" href="https://www.roblox.com/games/5548533908/Robbery-Story" />
+</svelte:head>
+
 <div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Robbery (Story)</Project.Name>

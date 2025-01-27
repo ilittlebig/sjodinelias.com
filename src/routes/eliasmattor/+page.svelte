@@ -12,14 +12,14 @@
 
 	<meta property="og:title" content="Elias Mattor - Hand-Tufted Rugs E-Commerce Platform" />
 	<meta property="og:description" content="Explore Elias Mattor, an e-commerce platform showcasing unique hand-tufted rugs. Users can customize designs or purchase vibrant, preset rug styles." />
-	<meta property="og:image" content="/eliasmattor-1.png" />
+	<meta property="og:image" content="/eliasmattor.png" />
 	<meta property="og:image:alt" content="Elias Mattor Hero Section" />
 	<meta property="og:type" content="website" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Elias Mattor - Hand-Tufted Rugs E-Commerce Platform" />
 	<meta name="twitter:description" content="Discover Elias Mattor, a platform featuring customizable and preset hand-tufted rugs, blending creativity with craftsmanship." />
-	<meta name="twitter:image" content="/eliasmattor-1.png" />
+	<meta name="twitter:image" content="/eliasmattor.png" />
 	<meta name="twitter:image:alt" content="Elias Mattor Hero Section" />
 
 	<meta name="author" content="Elias Sjödin" />
@@ -29,7 +29,7 @@
 <div class="flex flex-col gap-y-32 mt-24 p-4 sm:p-8">
 	<Project.Root>
 		<Project.Name>Elias Mattor</Project.Name>
-		<Project.Image src="eliasmattor-1.png" />
+		<Project.Image src="eliasmattor.png" />
 		<Project.Content>
 			<Project.Description>
 				Elias Mattor is an ongoing full-stack e-commerce project designed to showcase and sell unique, hand-tufted rugs. It aims to allow users to customize their own rugs or purchase preset designs. Although still in progress, the hero section sets the tone with a professional design emphasizing warmth, creativity, and craftsmanship.
@@ -49,7 +49,7 @@
 		<FeatureSection.Image
 			title="Hero Section"
 			description="The visually engaging hero section greets visitors with vibrant rug designs, emphasizing customization and creativity. This section highlights the company’s mission to bring warmth and individuality to homes."
-			image="/eliasmattor-2.png"
+			image="/eliasmattor-1.png"
 		/>
 
 		<FeatureSection.Image

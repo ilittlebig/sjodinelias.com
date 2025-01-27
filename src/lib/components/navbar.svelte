@@ -17,5 +17,9 @@
 			<HoverTextAnimation label="Linkedin" />
 			<SquareArrowOutUpRight class="text-grayish w-6 h-6" />
 		</a>
+		<a href="https://www.blog.sjodinelias.com/" class="flex items-center gap-x-2 expand-on-hover">
+			<HoverTextAnimation label="Blog" />
+			<SquareArrowOutUpRight class="text-grayish w-6 h-6" />
+		</a>
 	</div>
 </div>
